@@ -69,3 +69,63 @@
 
 24. Numericke metody, 5
 	Matice (Typy, Determinant, Metody (Priame/Iteracne)), Num. riesenie obyc. diferencialnych rovnic (jednokrokove, viackrokove, prediktor-korektor, explicitne, implicitne), Chyby numerickych metod (lokalne, akumulovane, dlzka kroku)
+
+25. Teoria Grafov, 1
+	Graf (Sled, Tah, Stupen vrcholu), Typy grafov (Kruznica, Cesta, Klika, Eulerov, Hamiltonovsky, Strom, Rovinne), Podgrafy, Grafove algoritmy (BFS, DFS, Dijikstra, Kruskalov, Jarnikov(Primov))
+
+26. Riesenie uloh, 0
+	Prehladavanie stavov (Slepe metody (BFS, DFS, BS, UCS, Backtracking), Informovane metody (BestFS, A*, heuristicke funkcie)), Metody lokalneho prehladavanie (Hill-Climbing, Simulated annealing), Rozklad na podproblemy (AO*), Algoritmy inspirovane prirodou (Ant Colony, Particle swarm), Metody hrania hier (MinMax, Alpha-beta, Expectimax)
+
+27. Strojove ucenie, 0
+	Ucenie s ucitelom (InduceTreem ID3), Ucenie bez ucitela (Clustering, k-means klustering), Posilovacie ucenie (Policy-only, TD learning, Q learning, SARSA)
+
+28. Principy modelovania a simulacie systemu, 11
+	System (Delenie, Cas, Spravanie, Vztahy medzi sys., Okolie), Modelovanie (Proces modelovania, Abstraktne, Simulacne, Klasifikacia, Verifikacia/Validacia), Simulacia(Typy, Simulacne metody (Petriho, MonteCarlo, CA, Markovske))
+
+29. Datove a riadiace struktury imperativnych programovacich jazykov, 0
+	Datove Struktury (Linearne, Nelinearne, ADT), Riadiace struktury (Algoritmus, Prikaz, Selekcia, Iterovanie, Funkcia, Prikaz skoku)
+
+30. Vyhladavanie a radenie, 3
+	B-Stromy, AVL, (a,b), LLRB, LUT, HASH table, Vyhladavanie v texte (KMP, Boyer-Moore), Radenie (Selection sort, Bubble sort, Heap sort and more...)
+
+31. Pravdepodobnost a statistika, 3
+	Pravdepodobnost (Zakladane pojmy, Nahodne veliciny, Nahodne vektory, Rozdelenia pravdepodobnosti), Statistika (Pojmy, Odhady, Testovanie hypotez, Regresia/Korelacia)
+
+32. Hodnotenie zlozitosti algoritmov, 1
+	Casova, Priestorova, Omikron, Omega, Theta
+
+33. Zivotny cyklus SW, 0
+	Vlastnosti SW, Etapy, Modely (Sekvencne/Iteracne)
+
+34. Jazyk UML, 0
+	Diagramy struktury (Tried, Objektov, Zoskupeni), Diagramy chovania (Use-Case, Aktivit, Stavovy), Diagramy interakcie (Sekvencny, Komunikacie)
+
+35. Konceptualne modelovanie a navrh relacnej databazy, 0
+	ERD, Kandidatny/primarny/cudzi kluc, Normalizacia, Matematicky pohlad na relacnu databazu
+
+36. Reprezentacia a ulozenie strukturovanych dat, 0
+	Struktura a Kolekcia, Serializacia/Deserializacia (JSON, XML), Transakcie (ACID, Bussiness)
+	
+37. Webove UI a aplikacne rozhrania, 0
+	HTML (), CSS, JS, API, Session, Authentizacia vs Autorizacia
+
+38. Principy a struktury spravy suborov a spravy pamate, 5
+	Subor (Suborovy system), HDD (platy, drahy, hlavy, LBA, CHS, Rozhrania, Parametre), SSD (Vyhody/Nevyhody), Diskove polia (RAID0-6), Fragmentacia (Externa/Interna), Planovanie pristupu na disk, Zurnalovanie, UNIX file system (bloky, i-uzol, FAT, B+ stromy, Extent), Vyrovnavacia pamata (Citanie, Pisanie), Sprava pamate (LAP, FAP, Spojita alok., Segmentacia), Strankovanie (TLB, strankovanie a segmentacia na ziadost, Obsluha vypadu stranky), Odkladanie stranok (FIFO, LRU, Page aging, Clock alg.)
+
+39. Planovanie a synchronizacia procesov, 5
+	Sprava procesov (Stavy planovania, Systemove volania, Hierarchia procesov v UNIX), Planovanie procesov (Prepnutie kontextu, Planovacie algoritmy (FCFS, RoundRobin, SJF, SRT, Viacurovnove planovanie, VFS), Vlakna a signaly, uloha, skupina procesov), Synchronizacia procesov (Spinlock, Semafory, Monitory, Deadlock, Verifikacia)
+
+40. Objektova orientacia, 0
+	TODO
+
+41. Programovanie v jazyku symbolickych instrukcii, 0
+	TODO
+
+42. Sluzby aplikacnej vrstvy, 1
+	TODO
+
+43. TCP/IP komunikacia, 0
+	TODO
+
+44. Smerovanie a zabezpecenie prenosov v pocitacovych sietach, 0
+	TODO
