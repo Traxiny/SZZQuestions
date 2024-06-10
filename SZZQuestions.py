@@ -13,6 +13,27 @@ class SZZQuestions:
     def get_random_question(self): # maybe add frequency
         return self.questions_dict.get(random.randint(1,self.questions_count))
     
+    def get_questions_by_frequency(self, freq: int) -> list[str]:
+        return [
+            f"{question.question_number}.{question.question_name}"
+            for question in self.questions_dict.values()
+            if question.question_frequency == freq
+        ]
+
+    def get_questions_greater_than_or_equal_frequency(self, freq: int) -> list[str]:
+        return [
+            f"{question.question_number}.{question.question_name}"
+            for question in self.questions_dict.values()
+            if question.question_frequency >= freq
+        ]
+
+    def get_questions_less_than_or_equal_frequency(self, freq: int) -> list[str]:
+        return [
+            f"{question.question_number}.{question.question_name}"
+            for question in self.questions_dict.values()
+            if question.question_frequency <= freq
+        ]
+    
     def read_raw_file(self):
         questions_raw = []
 
