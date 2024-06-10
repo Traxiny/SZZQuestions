@@ -2,8 +2,9 @@
 
 ## Usage
 Firstly
+` python3 -m venv env` then `pip install -r requirements.txt`
+then activate
 `. .venv/bin/activate`
-if needed `pip install -r requirements.txt`
 then
 `flask run`
 
