@@ -31,8 +31,8 @@ class SZZQuestions:
                 number = int(match.group(1))
                 remains = question[0][match.end():].strip()
                 items = [item.strip() for item in remains.split(',')]
-
-                self.questions_dict[number] = Question(number, items[0], items[1], question[1].split(", "))
+                helpers = re.split(r",(?![^()]*\))", question[1])
+                self.questions_dict[number] = Question(number, items[0], items[1], helpers)
                 self.questions_count += 1
     
     def __repr__(self):
