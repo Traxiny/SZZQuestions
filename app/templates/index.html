@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+        <title>
+            SZZ - Random Questions
+        </title>
+    </head>
+    <body>
+
+    {% block app_content %}
+
+    <div class="jumbotron">
+        <hr class="my-4">
+        <p>Generate and display a random question:</p>
+        <button id="generate-question-btn" class="btn btn-primary">Get Random Question</button>
+        <div id="question-display" style="display: none;">
+            <h4>Random Question:</h4>
+            <p id="question-name"></p>
+            <p id="question-freq"></p>
+            <button id="generate-helpers-btn" class="btn btn-primary">Get Help</button>
+            <div id="question-helpers-display" style="display: none;">
+                <h4>Question subjects:</h4>
+                <ul id="question-helpers" class="list-group"></ul>
+            </div>
+        </div>
+    </div>
+
+    {% endblock %}
+
+    </body>
+        <!-- jquery -->
+        <script type="text/javascript" src="{{url_for('static', filename='jquery-3.7.1.js')}}"></script>
+        <!-- javascript functions -->
+        <script type="text/javascript" src="{{url_for('static', filename='functions.js')}}"></script>
+</html>

@@ -1,0 +1,71 @@
+1. Princip cinnosti polovodicovych prvkov, 18
+	Dioda, bipolarny a unipolarny tranzistor, realizacia NAND a NOR v CMOS
+
+2. Kombinacne logicke obvody, 1
+	Multiplexor, demultiplexor, dekoder, koder, binary coded decimal koder, binarna scitacka
+
+3. Sekvencne logicke obvody, 2
+	Klopne obvody (rs, d, jk, t), citace, registre (viac bitovy, posuvny), stavove automaty (Moorov, Maelyho, kodovanie stavov)
+
+4. Hierarchia pamate, 0
+	Typy a principy pamate (CPU registre, Cache, RAM, DRAM/SRAM, ROM/PROM/EPROM, sekundarne a terciarne), principy lokality, organizacia RVP
+
+5. Vstavane systemy, 6
+	Mikrokontroler, Periferie (GPIO, Hodiny, klavesnica, seg. displej, LEd, bzucak, repraky), Rozhrania (Seriove, Async., sync., UART, SPI, I2C), Prevodniky (ADC, DAC)
+
+6. Principy riadenia a pripojenia perifernych zariadeni, 3
+	Pripojenie (pont-to-point, zbernicu), Zbernica (arbitracia, zapojenie), Radic per. zariadeni, Obsluha per. zariadeni (polling, prerusenie), Priamy pristup do pamate (DMA)
+
+7. Princip cinnosti pocitacu, 4
+	Procesor (PC, IR/IAR, ACC, ALU), Spracovanie Instrukcii (fetch, decode, execute), CPU Architekrury (Harvard, Von Neuman), Rozdelenie podla registrov (Zasobnikovy, Akumulatorovy, Registrovy), RISC/CISC (), Retazenie instrukcii (Pipelining, hazardy/konflikty)
+
+8. Minimalizacia logickych vyrazov, 0
+	Algebraicka (axiomy Boolovej algebry, UNDF, UPKF), Graficka (Venn Diagramy, Jednotkova Kocka, Karnaughoba mapa), Algoritmicka (Quine McCluskey) 
+
+9. Reprezentacia cisel a zakladne dvojkove aritmeticke operacie, 1
+	Reprezentacia celeho cisla so znamienkom (Priamy, Aditivny, Jednotkovy/Dvojkovy doplnok), Reprezentacia desatinnych cisel (Pevna desatinna ciarka, Plavajuca desatinna ciarka, IEE754 standard), Aritmeticke operacie (+, -, *)
+
+10. Technologia FPGA, 2
+	Casti FPGA (CLB, LUT, PI, IOB), Navrh aplikacie, VHDL(Entita, Architektura)
+
+11. 2D vektorova grafika, 13
+	Vektorova/Rastrova grafika, Usecka (3 zapisy, DDA, Midpoint), Kruznica (Vykreslenie po bodoch, Vykreslenie po n-uholnikoch, Midpoint), Krivky (Bezierove, de Casteljau, Bezierova kubika), Polygon (Riadkove vyplnenie, Pinedov, Seed fill)
+
+12. Transformacia a zobrazenie 3D polygonalnych modelov, 7
+	Transformacie (Translacia, Scale, Shear, Rotacia), Zobrazenie polygon. 3D modelov (Prvky 3D sceny), Projekcie (Paralelna, Perspektivna, Raytracing/Radiozita), Vykreslovaci retazec (Vertex shader, Primitive assembly, 2D vektor. grafika, Rasterizacia, Fragment shader, Per fragment operations)
+
+13. Principy GUI, 0
+	Komunikacne kanaly (pc->person/person->pc), Mody komunikacie, Standardne prvky (WIMP), Systemy riadene udalostami
+
+14. Spektralna analyza spojitych a diskretnych signalov, 11
+	Signal (Spojity, Diskretny), Vzorkovanie (Shannonov teorem), Ine signaly (Diskretne, Periodicke, Harmonicke, jednotkovy skok), Sprektralna analyza (komplexna exponenciala, FS, DFS, FT, DFT, DTFT)
+
+15. Cislicove filtre, 8 
+	System (Vlastnosti systemu), Cislicovy filter (Diferencne rovnice, Impulzna odozva, IIR FIR), Frekvencna characteristika, Prenosova funkcia (z-transformacia)
+
+16. Mnoziny, relacie a zobrazenia, 5
+	Mnoziny (Mohutnost, Podmnoziny, Operacie), Relacie (Vlastnosti, Uzavery, Inverzna, Skladanie, Usporiadanie (Hasseovske diagramy)), Zobrazenia (Injekcia, Surjekcia, Bijekcia), Zvaz, Groupa
+
+17. Diferencialny a integralny pocet funkcii jednej a viac premennych, 5
+	Limita (Type, L'Hopital, Spojite funkcie), Derivacia (Lokalne extremy, Inflexne body), Integral (Urcity (Newton-Leibnitzova formula), Neurcity, Primitivna funkcia, Per partes, Subs.), Gradient, Viacnasobne Integraly a derivacie
+
+18. Ciselne sustavy a prevody medzi nimi, 1
+	Nepozicne sustavy (rimske cislice), Pozicne sustavy (Forma polynomu, dvojkova, desiatkova, sestnastkova) Prevody (substitucne dosadenie do polyn., delenim zakladom, nasobenie zakladom (destine)), Dvojkova do -> 4, 8, 16
+
+19. Vyrokova a predikatova logika, 2
+	Vyrokova logika (Syntax, Semantika, splnitelnost a Platnost, Algebraicke upravy, Normalne formy, System Log. Spojok), Predikatova logika (Syntax, Semantika, Viazane a volne premenne, PNF)
+
+20. Boolove algebry, 2
+	What is it, Vlastnosti, Priklady Boolovych algebier, Funkcie
+
+21. Regularne jazyky a ich modely, 6
+	Retazec, Jazyk, Gramatika, KA (Prijimany jazyk, Prechod, Ekvivalencia, Typy, Determinizacia), Regularny vyraz, Regularny jazyk, Regularna gramatika, Pumping lemma, Prevody RV -> KA a naopak  
+
+22. Bezkontextove jazyky a ich modely, 1
+	Bezkontextova gramatika, Bezkontextovy jazyk, Derivacny krok BKG, ZA (Prechody, Prijimane jazyky), Modely zdola-na-hor/zhora-na-dol
+	
+23. Struktura prekladaca a characteristika prekladu, 0
+	Lexikalna analyza (text, tokeny), Syntaktizka analyza (tokeny, sim. deriv. stromu, zhora-dole, zdola-hore), Semanticka analyza (sim. deriv. stromu, abst. syntakt. strom), Gen. vnutorneho kodu (abst. syntakt. strom, vnutorny kod), optimalizator (vnutorny kod, optimalizovany vnutorny kod), Generator cieloveho kodu (opt. vnutorny kod, cielovy kod)
+
+24. Numericke metody, 5
+	Matice (Typy, Determinant, Metody (Priame/Iteracne)), Num. riesenie obyc. diferencialnych rovnic (jednokrokove, viackrokove, prediktor-korektor, explicitne, implicitne), Chyby numerickych metod (lokalne, akumulovane, dlzka kroku)
