@@ -45,16 +45,16 @@ h4 {
     margin-top: 1rem;
 }
 
-#question-name, #question-freq, #question-helpers {
+#question-name, #question-freq, #question-subtopics {
     font-size: 1.1rem;
     color: #343a40;
 }
 
-#generate-question-btn, #generate-helpers-btn {
+#generate-question-btn, #generate-subtopics-btn {
     margin-top: 1rem;
 }
 
-#question-display, #question-helpers-display {
+#question-display, #question-subtopics-display {
     margin-top: 1rem;
     padding: 1rem;
     border: 1px solid #dee2e6;

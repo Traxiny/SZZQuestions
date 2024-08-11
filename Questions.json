@@ -1,0 +1,517 @@
+[
+    {
+        "question": {
+            "topic": "Princip cinnosti polovodicovych prvkov",
+            "number": 1,
+            "subtopics": [
+                { "name": "Dioda", "helpers": [] },
+                { "name": "Bipolarny a unipolarny tranzistor", "helpers": [] },
+                { "name": "Realizacia NAND a NOR v CMOS", "helpers": [] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Kombinacne logicke obvody",
+            "number": 2,
+            "subtopics": [
+                { "name": "Multiplexor", "helpers": [] },
+                { "name": "Demultiplexor", "helpers": [] },
+                { "name": "Dekoder", "helpers": [] },
+                { "name": "Koder", "helpers": [] },
+                { "name": "Binary coded decimal koder", "helpers": [] },
+                { "name": "Binarna scitacka", "helpers": [] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Sekvencne logicke obvody",
+            "number": 3,
+            "subtopics": [
+                { "name": "Klopne obvody", "helpers": ["rs", "d", "jk", "t"] },
+                { "name": "Citace", "helpers": [] },
+                { "name": "Registre", "helpers": ["viac bitovy", "posuvny"] },
+                { "name": "Stavove automaty", "helpers": ["Moorov", "Maelyho", "kodovanie stavov"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Hierarchia pamate",
+            "number": 4,
+            "subtopics": [
+                { "name": "Typy a principy pamate", "helpers": ["CPU registre", "Cache", "RAM", "DRAM/SRAM", "ROM/PROM/EPROM", "sekundarne", "terciarne"] },
+                { "name": "Principy lokality", "helpers": [] },
+                { "name": "Organizacia RVP", "helpers": [] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Vstavane systemy",
+            "number": 5,
+            "subtopics": [
+                { "name": "Mikrokontroler", "helpers": [] },
+                { "name": "Periferie", "helpers": ["GPIO", "Hodiny", "klavesnica", "seg. displej", "LED", "bzucak", "repraky"] },
+                { "name": "Rozhrania", "helpers": ["Seriove", "Async.", "sync.", "UART", "SPI", "I2C"] },
+                { "name": "Prevodniky", "helpers": ["ADC", "DAC"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Principy riadenia a pripojenia perifernych zariadeni",
+            "number": 6,
+            "subtopics": [
+                { "name": "Pripojenie", "helpers": ["pont-to-point", "zbernica"] },
+                { "name": "Zbernica", "helpers": ["arbitracia", "zapojenie"] },
+                { "name": "Radic per. zariadeni", "helpers": [] },
+                { "name": "Obsluha per. zariadeni", "helpers": ["polling", "prerusenie"] },
+                { "name": "Priamy pristup do pamate", "helpers": ["DMA"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Princip cinnosti pocitacu",
+            "number": 7,
+            "subtopics": [
+                { "name": "Procesor", "helpers": ["PC", "IR/IAR", "ACC", "ALU"] },
+                { "name": "Spracovanie Instrukcii", "helpers": ["fetch", "decode", "execute"] },
+                { "name": "CPU Architekrury", "helpers": ["Harvard", "Von Neuman"] },
+                { "name": "Rozdelenie podla registrov", "helpers": ["Zasobnikovy", "Akumulatorovy", "Registrovy"] },
+                { "name": "RISC/CISC", "helpers": [] },
+                { "name": "Retazenie instrukcii", "helpers": ["Pipelining", "hazardy", "konflikty"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Minimalizacia logickych vyrazov",
+            "number": 8,
+            "subtopics": [
+                { "name": "Algebraicka", "helpers": ["axiomy Boolovej algebry", "UNDF", "UPKF"] },
+                { "name": "Graficka", "helpers": ["Venn Diagramy", "Jednotkova Kocka", "Karnaughoba mapa"] },
+                { "name": "Algoritmicka", "helpers": ["Quine McCluskey"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Reprezentacia cisel a zakladne dvojkove aritmeticke operacie",
+            "number": 9,
+            "subtopics": [
+                { "name": "Reprezentacia celeho cisla so znamienkom", "helpers": ["Priamy", "Aditivny", "Jednotkovy/Dvojkovy doplnok"] },
+                { "name": "Reprezentacia desatinnych cisel", "helpers": ["Pevna desatinna ciarka", "Plavajuca desatinna ciarka", "IEE754 standard"] },
+                { "name": "Aritmeticke operacie", "helpers": ["+", "-", "*"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "2D vektorova grafika",
+            "number": 11,
+            "subtopics": [
+                { "name": "Vektorova/Rastrova grafika", "helpers": [] },
+                { "name": "Usecka", "helpers": ["3 zapisy", "DDA", "Midpoint"] },
+                { "name": "Kruznica", "helpers": ["Vykreslenie po bodoch", "Vykreslenie po n-uholnikoch", "Midpoint"] },
+                { "name": "Krivky", "helpers": ["Bezierove", "de Casteljau", "Bezierova kubika"] },
+                { "name": "Polygon", "helpers": ["Riadkove vyplnenie", "Pinedov", "Seed fill"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Transformacia a zobrazenie 3D polygonalnych modelov",
+            "number": 12,
+            "subtopics": [
+                { "name": "Transformacie", "helpers": ["Translacia", "Scale", "Shear", "Rotacia"] },
+                { "name": "Zobrazenie polygon. 3D modelov", "helpers": ["Prvky 3D sceny"] },
+                { "name": "Projekcie", "helpers": ["Paralelna", "Perspektivna", "Raytracing", "Radiozita"] },
+                { "name": "Vykreslovaci retazec", "helpers": ["Vertex shader", "Primitive assembly", "2D vektor. grafika", "Rasterizacia", "Fragment shader", "Per fragment operations"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Principy GUI",
+            "number": 13,
+            "subtopics": [
+                { "name": "Komunikacne kanaly", "helpers": ["pc->person", "person->pc"] },
+                { "name": "Mody komunikacie", "helpers": [] },
+                { "name": "Standardne prvky", "helpers": ["WIMP"] },
+                { "name": "Systemy riadene udalostami", "helpers": [] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Spektralna analyza spojitych a diskretnych signalov",
+            "number": 14,
+            "subtopics": [
+                { "name": "Signal", "helpers": ["Spojity", "Diskretny"] },
+                { "name": "Vzorkovanie", "helpers": ["Shannonov teorem"] },
+                { "name": "Ine signaly", "helpers": ["Diskretne", "Periodicke", "Harmonicke", "jednotkovy skok"] },
+                { "name": "Sprektralna analyza", "helpers": ["komplexna exponenciala", "FS", "DFS", "FT", "DFT", "DTFT"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Cislicove filtre",
+            "number": 15,
+            "subtopics": [
+                { "name": "System", "helpers": ["Vlastnosti systemu"] },
+                { "name": "Cislicovy filter", "helpers": ["Diferencne rovnice", "Impulzna odozva", "IIR", "FIR"] },
+                { "name": "Frekvencna charakteristika", "helpers": [] },
+                { "name": "Prenosova funkcia", "helpers": ["z-transformacia"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Mnoziny, relacie a zobrazenia",
+            "number": 16,
+            "subtopics": [
+                { "name": "Mnoziny", "helpers": ["Mohutnost", "Podmnoziny", "Operacie"] },
+                { "name": "Relacie", "helpers": ["Vlastnosti", "Uzavery", "Inverzna", "Skladanie", "Usporiadanie", "(Hasseovske diagramy)"] },
+                { "name": "Zobrazenia", "helpers": ["Injekcia", "Surjekcia", "Bijekcia"] },
+                { "name": "Zvaz", "helpers": [] },
+                { "name": "Groupa", "helpers": [] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Diferencialny a integralny pocet funkcii jednej a viac premennych",
+            "number": 17,
+            "subtopics": [
+                { "name": "Limita", "helpers": ["Type", "L'Hopital", "Spojite funkcie"] },
+                { "name": "Derivacia", "helpers": ["Lokalne extremy", "Inflexne body"] },
+                { "name": "Integral", "helpers": ["Urcity", "(Newton-Leibnitzova formula)", "Neurcity", "Primitivna funkcia", "Per partes", "Subs."] },
+                { "name": "Gradient", "helpers": [] },
+                { "name": "Viacnasobne Integraly a derivacie", "helpers": [] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Ciselne sustavy a prevody medzi nimi",
+            "number": 18,
+            "subtopics": [
+                { "name": "Nepozicne sustavy", "helpers": ["rimske cislice"] },
+                { "name": "Pozicne sustavy", "helpers": ["Forma polynomu", "dvojkova", "desiatkova", "sestnastkova"] },
+                { "name": "Prevody", "helpers": ["substitucne dosadenie do polyn.", "delenim zakladom", "nasobenie zakladom", "(desatinne)"] },
+                { "name": "Dvojkova do -> 4, 8, 16", "helpers": [] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Vyrokova a predikatova logika",
+            "number": 19,
+            "subtopics": [
+                { "name": "Vyrokova logika", "helpers": ["Syntax", "Semantika", "splnitelnost", "Platnost", "Algebraicke upravy", "Normalne formy", "System Log. Spojok"] },
+                { "name": "Predikatova logika", "helpers": ["Syntax", "Semantika", "Viazane a volne premenne", "PNF"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Boolove algebry",
+            "number": 20,
+            "subtopics": [
+                { "name": "Čo to je", "helpers": [] },
+                { "name": "Vlastnosti", "helpers": [] },
+                { "name": "Priklady Boolovych algebier", "helpers": [] },
+                { "name": "Funkcie", "helpers": [] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Regularne jazyky a ich modely",
+            "number": 21,
+            "subtopics": [
+                { "name": "Retazec", "helpers": [] },
+                { "name": "Jazyk", "helpers": [] },
+                { "name": "Gramatika", "helpers": [] },
+                { "name": "KA", "helpers": ["Prijimany jazyk", "Prechod", "Ekvivalencia", "Typy", "Determinizacia"] },
+                { "name": "Regularny vyraz", "helpers": [] },
+                { "name": "Regularny jazyk", "helpers": [] },
+                { "name": "Regularna gramatika", "helpers": [] },
+                { "name": "Pumping lemma", "helpers": [] },
+                { "name": "Prevody RV -> KA a naopak", "helpers": [] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Bezkontextove jazyky a ich modely",
+            "number": 22,
+            "subtopics": [
+                { "name": "Bezkontextova gramatika", "helpers": [] },
+                { "name": "Bezkontextovy jazyk", "helpers": [] },
+                { "name": "Derivacny krok BKG", "helpers": [] },
+                { "name": "ZA", "helpers": ["Prechody", "Prijimane jazyky"] },
+                { "name": "Modely zdola-na-hor/zhora-na-dol", "helpers": [] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Struktura prekladaca a charakteristika prekladu",
+            "number": 23,
+            "subtopics": [
+                { "name": "Lexikalna analyza", "helpers": ["text", "tokeny"] },
+                { "name": "Syntakticka analyza", "helpers": ["tokeny", "sim. deriv. stromu", "zhora-dole", "zdola-hore"] },
+                { "name": "Semanticka analyza", "helpers": ["sim. deriv. stromu", "abst. syntakt. strom"] },
+                { "name": "Gen. vnutorneho kodu", "helpers": ["abst. syntakt. strom", "vnutorny kod"] },
+                { "name": "Optimalizator", "helpers": ["vnutorny kod", "optimalizovany vnutorny kod"] },
+                { "name": "Generator cieloveho kodu", "helpers": ["opt. vnutorny kod", "cielovy kod"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Numericke metody",
+            "number": 24,
+            "subtopics": [
+                { "name": "Matice", "helpers": ["Typy", "Determinant", "Metody (Priame/Iteracne)"] },
+                { "name": "Num. riesenie obyc. diferencialnych rovnic", "helpers": ["jednokrokove", "viackrokove", "prediktor-korektor", "explicitne", "implicitne"] },
+                { "name": "Chyby numerickych metod", "helpers": ["lokalne", "akumulovane", "dlzka kroku"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Teoria Grafov",
+            "number": 25,
+            "subtopics": [
+                { "name": "Graf", "helpers": ["Sled", "Tah", "Stupen vrcholu"] },
+                { "name": "Typy grafov", "helpers": ["Kruznica", "Cesta", "Klika", "Eulerov", "Hamiltonovsky", "Strom", "Rovinne"] },
+                { "name": "Podgrafy, Grafove algoritmy", "helpers": ["BFS", "DFS", "Dijikstra", "Kruskalov", "Jarnikov(Primov)"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Riesenie uloh",
+            "number": 26,
+            "subtopics": [
+                { "name": "Prehladavanie stavov", "helpers": ["Slepe metody (BFS, DFS, BS, UCS, Backtracking)"] },
+                { "name": "Informovane metody", "helpers": ["BestFS", "A*", "heuristicke funkcie"] },
+                { "name": "Metody lokalneho prehladavania", "helpers": ["Hill-Climbing", "Simulated annealing"] },
+                { "name": "Rozklad na podproblemy", "helpers": ["AO*"] },
+                { "name": "Algoritmy inspirovane prirodou", "helpers": ["Ant Colony", "Particle swarm"] },
+                { "name": "Metody hrania hier", "helpers": ["MinMax", "Alpha-beta", "Expectimax"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Strojove ucenie",
+            "number": 27,
+            "subtopics": [
+                { "name": "Ucenie s ucitelom", "helpers": ["InduceTree", "ID3"] },
+                { "name": "Ucenie bez ucitela", "helpers": ["Clustering", "k-means klustering"] },
+                { "name": "Posilovacie ucenie", "helpers": ["Policy-only", "TD learning", "Q learning", "SARSA"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Principy modelovania a simulacie systemu",
+            "number": 28,
+            "subtopics": [
+                { "name": "System", "helpers": ["Delenie", "Cas", "Spravanie", "Vztahy medzi sys.", "Okolie"] },
+                { "name": "Modelovanie", "helpers": ["Proces modelovania", "Abstraktne", "Simulacne", "Klasifikacia", "Verifikacia/Validacia"] },
+                { "name": "Simulacia", "helpers": ["Typy", "Simulacne metody (Petriho, MonteCarlo, CA, Markovske)"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Datove a riadiace struktury imperativnych programovacich jazykov",
+            "number": 29,
+            "subtopics": [
+                { "name": "Datove Struktury", "helpers": ["Linearne", "Nelinearne", "ADT"] },
+                { "name": "Riadiace struktury", "helpers": ["Algoritmus", "Prikaz", "Selekcia", "Iterovanie", "Funkcia", "Prikaz skoku"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Vyhladavanie a radenie",
+            "number": 30,
+            "subtopics": [
+                { "name": "B-Stromy", "helpers": [] },
+                { "name": "AVL", "helpers": [] },
+                { "name": "(a,b)", "helpers": [] },
+                { "name": "LLRB", "helpers": [] },
+                { "name": "LUT", "helpers": [] },
+                { "name": "HASH table", "helpers": [] },
+                { "name": "Vyhladavanie v texte", "helpers": ["KMP", "Boyer-Moore"] },
+                { "name": "Radenie", "helpers": ["Selection sort", "Bubble sort", "Heap sort and more..."] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Pravdepodobnost a statistika",
+            "number": 31,
+            "subtopics": [
+                { "name": "Pravdepodobnost", "helpers": ["Zakladane pojmy", "Nahodne veliciny", "Nahodne vektory", "Rozdelenia pravdepodobnosti"] },
+                { "name": "Statistika", "helpers": ["Pojmy", "Odhady", "Testovanie hypotez", "Regresia/Korelacia"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Hodnotenie zlozitosti algoritmov",
+            "number": 32,
+            "subtopics": [
+                { "name": "Casova", "helpers": [] },
+                { "name": "Priestorova", "helpers": [] },
+                { "name": "Omikron", "helpers": [] },
+                { "name": "Omega", "helpers": [] },
+                { "name": "Theta", "helpers": [] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Životný cyklus",
+            "number": 33,
+            "subtopics": [
+                { "name": "Vlastnosti SW", "helpers": [] },
+                { "name": "Etapy", "helpers": [] },
+                { "name": "Modely", "helpers": ["Sekvence", "Iteracne"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Jazyk UML",
+            "number": 34,
+            "subtopics": [
+                { "name": "Diagramy struktury", "helpers": ["Tried", "Objektov", "Zoskupeni"] },
+                { "name": "Diagramy chovania", "helpers": ["Use-Case", "Aktivit", "Stavovy"] },
+                { "name": "Diagramy interakcie", "helpers": ["Sekvencny", "Komunikacie"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Konceptuálne modelovanie a návrh relačnej databázy",
+            "number": 35,
+            "subtopics": [
+                { "name": "ERD", "helpers": [] },
+                { "name": "Kandidátny/primárny/cudzí kľúč", "helpers": [] },
+                { "name": "Normalizácia", "helpers": ["1NF", "2NF", "3NF", "BCNF"] },
+                { "name": "Matematický pohľad na relačnú databázu", "helpers": [] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Reprezentácia a uloženie štruktúrovaných dát",
+            "number": 36,
+            "subtopics": [
+                { "name": "Štruktúra a kolekcia", "helpers": [] },
+                { "name": "Serializácia/deserializácia", "helpers": ["JSON", "XML"] },
+                { "name": "Transakcie", "helpers": ["ACID", "Business"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Webové UI a aplikačné rozhrania",
+            "number": 37,
+            "subtopics": [
+                { "name": "HTML", "helpers": [] },
+                { "name": "CSS", "helpers": [] },
+                { "name": "JavaScript", "helpers": [] },
+                { "name": "API", "helpers": [] },
+                { "name": "Session", "helpers": [] },
+                { "name": "Autentizácia vs Autorizácia", "helpers": [] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Správa a štruktúry správy súborov a pamäte",
+            "number": 38,
+            "subtopics": [
+                { "name": "Súbor", "helpers": ["súborový systém"] },
+                { "name": "HDD", "helpers": ["platne", "dráhy", "hlavy", "LBA", "CHS", "rozhrania", "parametre"] },
+                { "name": "SSD", "helpers": ["výhody", "nevýhody"] },
+                { "name": "Diskové polia", "helpers": ["RAID 0-6"] },
+                { "name": "Fragmentácia", "helpers": ["externá", "interná"] },
+                { "name": "Plánovanie prístupu na disk", "helpers": [] },
+                { "name": "Zurnalovanie", "helpers": []},
+                { "name": "UNIX file system", "helpers": ["bloky", "i-uzol", "FAT", "B+ stromy", "extent"]},
+                { "name": "Vyrovnávacia pamäť", "helpers": ["čítanie", "písanie"] },
+                { "name": "Správa pamäte", "helpers": ["LAP", "FAP", "spojitá alokácia", "segmentácia"] },
+                { 
+                    "name": "Stránkovanie", 
+                    "helpers": ["TLB", "stránkovanie a segmentácia na žiadosť", "obsluha výpadku stránky"] 
+                },
+                { 
+                    "name": "Odkladanie stránok", 
+                    "helpers": ["FIFO", "LRU", "Page aging", "Clock algorithm"] 
+                }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Plánovanie a synchronizácia procesov",
+            "number": 39,
+            "subtopics": [
+                { "name": "Správa procesov", "helpers": ["stavy", "systémové volania", "hierarchia procesov v UNIX"] },
+                { 
+                    "name": "Plánovanie procesov", 
+                    "helpers": ["prepnutie kontextu", "algoritmy: FCFS, RoundRobin, SJF, SRT, viacúrovňové plánovanie, VFS" ]},
+                { "name": "Vlákna a signály, úloha, skupina procesov", "helpers": [] },
+                { "name": "Synchronizácia procesov", "helpers": ["spinlock", "semafory", "monitory", "deadlock", "verifikácia"] }
+            ]
+        }
+    },
+    {
+        "question": {
+            "topic": "Objektová orientácia",
+            "number": 40,
+            "subtopics": []
+        }
+    },
+    {
+        "question": {
+            "topic": "Programovanie v jazyku symbolických inštrukcií",
+            "number": 41,
+            "subtopics": []
+        }
+    },
+    {
+        "question": {
+            "topic": "Služby aplikačnej vrstvy",
+            "number": 42,
+            "subtopics": []
+        }
+    },
+    {
+        "question": {
+            "topic": "TCP/IP komunikácia",
+            "number": 43,
+            "subtopics": []
+        }
+    },
+    {
+        "question": {
+            "topic": "Smerovanie a zabezpečenie prenosov v počítačových sieťach",
+            "number": 44,
+            "subtopics": []
+        }
+    }
+]

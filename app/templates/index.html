@@ -14,15 +14,17 @@
     <div class="jumbotron">
         <hr class="my-4">
         <p>Generate and display a random question:</p>
-        <button id="generate-question-btn" class="btn btn-primary">Get Random Question</button>
+        <button id="generate-learn-question-btn" class="btn btn-primary">Get Random Question to learn</button>
+        <button id="generate-answer-question-btn" class="btn btn-primary">Get Random Question to answer</button>
         <div id="question-display" style="display: none;">
             <h4>Random Question:</h4>
             <p id="question-name"></p>
             <p id="question-freq"></p>
+            <button id="generate-subtopics-btn" class="btn btn-primary">Get Help</button>
             <button id="generate-helpers-btn" class="btn btn-primary">Get Help</button>
-            <div id="question-helpers-display" style="display: none;">
+            <div id="question-subtopics-display" style="display: none;">
                 <h4>Question subjects:</h4>
-                <ul id="question-helpers" class="list-group"></ul>
+                <ul id="question-subtopics" class="list-group"></ul>
             </div>
         </div>
     </div>
