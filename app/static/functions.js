@@ -70,7 +70,7 @@ $(document).ready(function() {
                         $('#question-subtopics').append(`
                             <li class="list-group-item">
                                 ${subtopic}
-                                <button id="more-info-btn" data-subtopic="${subtopic}">
+                                <button id="more-info-btn" class="btn btn-primary" data-subtopic="${subtopic}">
                                     More help
                                 </button>
                             </li>
