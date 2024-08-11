@@ -483,35 +483,63 @@
         "question": {
             "topic": "Objektová orientácia",
             "number": 40,
-            "subtopics": []
+            "subtopics": [
+                { "name": "Zakladne koncepty", "helpers": ["Abstrakcia", "Zapuzdrenie", "Polymorfizmus", "Dedicnost"] },
+                { "name": "Triedne jazyky", "helpers": ["Triedna dedicnost", "Volania funkcii (ziadna, skora, neskora vazba)", "VMT", "Rozhranie"] },
+                { "name": "Beztriedne jazyky", "helpers": [] }
+            ]
         }
     },
     {
         "question": {
             "topic": "Programovanie v jazyku symbolických inštrukcií",
             "number": 41,
-            "subtopics": []
+            "subtopics": [
+                { "name": "Cinnost pocitaca", "helpers": ["CPU (ALU, IR, IP)", "Cinnost PC (fetch, decode, execute)"] },
+                { 
+                    "name": "Symbolicky jazyk", 
+                    "helpers": [
+                        "Instrukcie (prenosove, aritmeticke, rotacne a posuvne, logicke, skokove, retazove, riadiace)", 
+                        "Konvence volania (pascal, cdecl, stdcall)", "Registry (EAX, EBX, ECX, ESP, EFLAGS)", "FPU", "Endianita"] },
+                { "name": "Assembler", "helpers": ["Makra"] }
+            ]
         }
     },
     {
         "question": {
             "topic": "Služby aplikačnej vrstvy",
             "number": 42,
-            "subtopics": []
+            "subtopics": [
+                { "name": "Protokoly", "helpers": ["naco su", "cez UDP", "cez TCP"] },
+                { "name": "Web", "helpers": ["URI, URL, URN", "HTTP"] },
+                { "name": "E-mai", "helpers": ["MTA", "MUA", "casti e-mailu", "kodovanie", "SMTP", "POP3", "IMAP", "PGP"] },
+                { "name": "DNS", "helpers": ["page - 412"] }, 
+                { "name": "IP-Telefonia", "helpers": [""] },
+                { "name": "Sprava siete", "helpers": [""] }
+            ]
         }
     },
     {
         "question": {
             "topic": "TCP/IP komunikácia",
             "number": 43,
-            "subtopics": []
+            "subtopics": [
+                { "name": "", "helpers": [""] },
+                { "name": "", "helpers": [""] },
+                { "name": "", "helpers": [""] },
+                { "name": "", "helpers": [""] }
+            ]
         }
     },
     {
         "question": {
             "topic": "Smerovanie a zabezpečenie prenosov v počítačových sieťach",
             "number": 44,
-            "subtopics": []
+            "subtopics": [
+                { "name": "", "helpers": [""] },
+                { "name": "", "helpers": [""] },
+                { "name": "", "helpers": [""] }
+            ]
         }
     }
 ]
